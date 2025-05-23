@@ -1,0 +1,210 @@
+{
+    "@context": {
+        "gs1": "http://gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@vocab": "http://gs1.org/voc/"
+    },
+    "@type": "gs1:Product",
+    "@id": "https://www.gs1.org/id/gtin/05012345000060",
+    "productName": [
+        {
+            "@value": "Capt. Fawcett's Moustache Wax Expedition Strength 15ml",
+            "@language": "en"
+        }
+    ],
+    "gtin": "05012345000060",
+    "productRange": [
+        {
+            "@value": "Moustache Wax",
+            "@language": "en"
+        }
+    ],
+    "brand": {
+        "brandName": [
+            {
+                "@value": "Capt. Fawcett's",
+                "@language": "en"
+            }
+        ],
+        "subBrandName": [
+            {
+                "@value": "Expedition Strength",
+                "@language": "en"
+            }
+        ],
+        "@type": "gs1:Brand"
+    },
+    "brandOwner": {
+        "@id": "Captain Fawcett Ltd."
+    },
+    "productDescription": [
+        {
+            "@value": "The Moustache Wax for the Gentleman. Hand-made using only the purest of ingredients and the finest sourced essential oil. Maintain a well groomed beard with Captain Fawcett Moustache wax.",
+            "@language": "en"
+        }
+    ],
+    "additionalProductDescription": [
+        {
+            "@value": "Ingredients:Cera Flava, Copernicia Cerifera, Paraffinum-Liquidum and Sandalwood Essential Oil",
+            "@language": "en"
+        }
+    ],
+    "productFormDescription": [
+        {
+            "@value": "Cream",
+            "@language": "en"
+        }
+    ],
+    "productionVariantDescription": [
+        {
+            "@value": "15ml",
+            "@language": "en"
+        }
+    ],
+    "productionVariantEffectiveDateTime": {
+        "@value": "2025-05-07 00:00:00 +01:00",
+        "@type": "xsd:dateTime"
+    },
+    "functionalName": [
+        {
+            "@value": "Moustache Wax",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryDescription": [
+        {
+            "@value": "Hair - Styling (Non Powered)",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryCode": "10000381",
+    "warningCopyDescription": [
+        {
+            "@value": "For external use only. Avoid contact with eyes; if irritation occurs, discontinue use and rinse thoroughly. Keep away from heat and direct sunlight. Store in a cool, dry place. Keep out of reach of children. Not suitable for those with allergies to beeswax or essential oils.",
+            "@language": "en"
+        }
+    ],
+    "manufacturer": {
+        "@id": "Captain Fawcett Ltd."
+    },
+    "productID": "EXPEDITION MW",
+    "netContent": {
+        "value": {
+            "@value": "15",
+            "@type": "xsd:float"
+        },
+        "unitCode": "MLT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "inPackageHeight": {
+        "value": {
+            "@value": "2",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "inPackageWidth": {
+        "value": {
+            "@value": "3.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "inPackageDepth": {
+        "value": {
+            "@value": "3.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "inPackageDiameter": {
+        "value": {
+            "@value": "3.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "CMT",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "consumerSafetyInformation": [
+        {
+            "@value": "For external use only. Avoid contact with eyes; if irritation occurs, discontinue use and rinse thoroughly. Keep away from heat and direct sunlight. Store in a cool, dry place. Keep out of reach of children. Not suitable for those with allergies to beeswax or essential oils.",
+            "@language": "en"
+        }
+    ],
+    "consumerUsageInstructions": [
+        {
+            "@value": "1. Remove a small amount of wax with your fingernail. 2. Warm the wax between your fingers. 3. Apply the wax to your moustache hairs, starting from the center and working outwards. 4. Style your moustache as desired.",
+            "@language": "en"
+        }
+    ],
+    "primaryAlternateProduct": {
+        "@id": "CAPTAIN FAWCETT Maharajah Moustache Wax 15 ml"
+    },
+    "countryOfOriginStatement": [
+        {
+            "@value": "Made in Great Britain",
+            "@language": "en"
+        }
+    ],
+    "countryOfOrigin": [
+        {
+            "@type": "gs1:Country",
+            "countryCode": "GB"
+        }
+    ],
+    "countryOfAssembly": [
+        {
+            "@type": "gs1:Country",
+            "countryCode": "GB"
+        }
+    ],
+    "countryOfLastProcessing": {
+        "countryCode": "GB",
+        "@type": "gs1:Country"
+    },
+    "targetMarket": [
+        {
+            "targetMarketCountries": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "GB"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        }
+    ],
+    "packaging": {
+        "packagingRecyclingProcessType": [
+            {
+                "@id": "gs1:PackagingRecyclingProcessTypeCode-RECYCLABLE"
+            }
+        ],
+        "packagingType": "CNG",
+        "@type": "gs1:PackagingDetails"
+    },
+    "packagingMaterial": [
+        {
+            "packagingMaterialThickness": {
+                "value": {
+                    "@value": "0.5",
+                    "@type": "xsd:float"
+                },
+                "unitCode": "MMT",
+                "@type": "gs1:QuantitativeValue"
+            },
+            "packagingMaterialType": {
+                "@id": "gs1:PackagingMaterialTypeCode-METAL_TIN"
+            },
+            "@type": "gs1:PackagingMaterialDetails"
+        },
+        {
+            "packagingMaterialType": {
+                "@id": "gs1:PackagingMaterialTypeCode-POLYMER_LDPE"
+            },
+            "@type": "gs1:PackagingMaterialDetails"
+        }
+    ]
+}

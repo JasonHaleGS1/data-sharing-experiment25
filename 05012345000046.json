@@ -1,0 +1,313 @@
+{
+    "@context": {
+        "gs1": "http://gs1.org/voc/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@vocab": "http://gs1.org/voc/"
+    },
+    "@type": "gs1:FoodBeverageTobaccoProduct",
+    "@id": "https://id.gs1.org/05012345000046",
+    "productName": [
+        {
+            "@value": "Fisherman's Friend Original 25g",
+            "@language": "en"
+        }
+    ],
+    "gtin": "05012345000046",
+    "regulatedProductName": [
+        {
+            "@value": "Menthol & Eucalyptus Flavour Lozengers",
+            "@language": "en"
+        }
+    ],
+    "brand": {
+        "brandName": [
+            {
+                "@value": "Fishermans Friend",
+                "@language": "en"
+            }
+        ],
+        "@type": "gs1:Brand"
+    },
+    "brandOwner": {
+        "@id": "Lofthouse of Fleetwood Ltd"
+    },
+    "productDescription": [
+        {
+            "@value": "Fisherman's Friend Original 25g Menthol & Eucalyptus Flavour Lozengers",
+            "@language": "en"
+        }
+    ],
+    "productMarketingMessage": [
+        {
+            "@value": "Strong, intensive and a true classic. First formulated in 1865 and literally on the tip of everyone’s tongues ever since. With its perfect, unique and original blend of eucalyptus and menthol, this sugary flavour has been iconic from the start - often imitated, yet unmatched. There is just one Original.",
+            "@language": "en"
+        }
+    ],
+    "image": {
+        "filePixelWidth": {
+            "@value": "320",
+            "@type": "xsd:integer"
+        },
+        "filePixelHeight": {
+            "@value": "240",
+            "@type": "xsd:integer"
+        },
+        "referencedFileURL": {
+            "@id": "https://i.postimg.cc/0QTtbjM8/FF-originals.jpg"
+        },
+        "@type": "gs1:ReferencedFileDetails"
+    },
+    "functionalName": [
+        {
+            "@value": "Lozenger",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryCode": "10000880",
+    "manufacturer": {
+        "@id": "Ceuta Healthcare Ltd"
+    },
+    "manufacturingPlant": {
+        "@id": "Hill House, 41 Richmond Hill, Bournemouth, BH2 6HS"
+    },
+    "productID": "F1-19P GS1 Test",
+    "allergenSpecificationAgency": [
+        {
+            "@value": "GS1",
+            "@language": "en"
+        }
+    ],
+    "allergenSpecificationName": [
+        {
+            "@value": "EU",
+            "@language": "en"
+        }
+    ],
+    "allergenStatement": [
+        {
+            "@value": "No allergens contained",
+            "@language": "en"
+        }
+    ],
+    "ingredientStatement": [
+        {
+            "@value": "sugar, liquorice extract, menthol, eucalyptus oil, and capsicum tincture",
+            "@language": "en"
+        }
+    ],
+    "countryOfOriginStatement": [
+        {
+            "@value": "Made in the UK",
+            "@language": "en"
+        }
+    ],
+    "countryOfOrigin": [
+        {
+            "@type": "gs1:Country",
+            "countryCode": "GB"
+        }
+    ],
+    "countryOfAssembly": [
+        {
+            "@type": "gs1:Country",
+            "countryCode": "GB"
+        }
+    ],
+    "countryOfLastProcessing": {
+        "countryCode": "GB",
+        "@type": "gs1:Country"
+    },
+    "provenanceStatement": [
+        {
+            "@value": "Made in the UK",
+            "@language": "en"
+        }
+    ],
+    "nutrientBasisQuantityType": {
+        "@id": "gs1:NutrientBasisQuantityCode-BY_SERVING"
+    },
+    "nutrientMeasurementPrecision": {
+        "@id": "gs1:MeasurementPrecisionCode-APPROXIMATELY"
+    },
+    "nutrientBasisQuantity": {
+        "value": "100",
+        "unitCode": "GRM",
+        "@type": "gs1:QuantitativeValue"
+    },
+    "fatPerNutrientBasis": {
+        "value": {
+            "@value": "< 0.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "saturatedFatPerNutrientBasis": {
+        "value": {
+            "@value": "< 0.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "carbohydratesPerNutrientBasis": {
+        "value": {
+            "@value": "95",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "sugarsPerNutrientBasis": {
+        "value": {
+            "@value": "88",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "polyolsPerNutrientBasis": {
+        "value": {
+            "@value": "< 0.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "saltPerNutrientBasis": {
+        "value": {
+            "@value": "0.25",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "proteinPerNutrientBasis": {
+        "value": {
+            "@value": "< 0.5",
+            "@type": "xsd:float"
+        },
+        "unitCode": "GRM",
+        "@type": "gs1:NutritionMeasurementType"
+    },
+    "energyPerNutrientBasis": [
+        {
+            "value": {
+                "@value": "1628",
+                "@type": "xsd:float"
+            },
+            "unitCode": "KJO",
+            "@type": "gs1:NutritionMeasurementType"
+        },
+        {
+            "value": {
+                "@value": "383",
+                "@type": "xsd:float"
+            },
+            "unitCode": "E14",
+            "@type": "gs1:NutritionMeasurementType"
+        }
+    ],
+    "ingredient": [
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 1
+            },
+            "ingredientName": [
+                {
+                    "@value": "sugar",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 2
+            },
+            "ingredientName": [
+                {
+                    "@value": "liquorice extract",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 3
+            },
+            "ingredientName": [
+                {
+                    "@value": "menthol",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 4
+            },
+            "ingredientName": [
+                {
+                    "@value": "eucalyptus oil",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "@type": "gs1:FoodBeverageTobaccoIngredientDetails",
+            "ingredientSequence": {
+                "@type": "xsd:integer",
+                "@value": 5
+            },
+            "ingredientName": [
+                {
+                    "@value": "and capsicum tincture",
+                    "@language": "en"
+                }
+            ]
+        }
+    ],
+    "targetMarket": [
+        {
+            "targetMarketCountries": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "GB"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        },
+        {
+            "targetMarketCountries": [
+                {
+                    "@type": "gs1:Country",
+                    "countryCode": "IE"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        }
+    ],
+    "packaging": {
+        "packagingShape": {
+            "@id": "gs1:PackagingShapeCode-RECTANGULAR"
+        },
+        "packagingType": "BG",
+        "@type": "gs1:PackagingDetails"
+    },
+    "packagingMaterial": [
+        {
+            "packagingMaterialType": {
+                "@id": "gs1:PackagingMaterialTypeCode-PAPER_OTHER"
+            },
+            "@type": "gs1:PackagingMaterialDetails"
+        }
+    ]
+}

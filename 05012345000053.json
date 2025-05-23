@@ -1,0 +1,172 @@
+{
+    "@context": {
+        "gs1": "http://gs1.org/voc/",
+        "s": "https://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@vocab": "http://gs1.org/voc/"
+    },
+    "@type": [
+        "gs1:Clothing",
+        "s:Product"
+    ],
+    "@id": "http://gs1uk.org/id/gtin/05012345000053",
+    "s:name": [
+        {
+            "@value": "Denim jacket",
+            "@language": "en"
+        }
+    ],
+    "gtin": "05012345000053",
+    "s:brand": {
+        "@id": "Denim Collective UK"
+    },
+    "s:description": [
+        {
+            "@value": "Men's Denim Trucker Jacket",
+            "@language": "en"
+        }
+    ],
+    "productMarketingMessage": [
+        {
+            "@value": "Elevate your everyday with Billy Jeans' ultimate denim jacket - classic, cool and undeniably you!",
+            "@language": "en"
+        }
+    ],
+    "s:image": {
+        "s:url": {
+            "@id": "https://gs1belgilux.sharepoint.com/sites/ProjectDPP/Gedeelde%20documenten/General/3.%20Developing%20phase/To%20provide/GS1%20Germany%20product%20images/Welcome%20page%20jean%20jacket%20AND%20for%20DPPs.jpeg?csf=1&web=1&e=BrUPDa&CID=12da84ef-3bad-41e7-9bf1-af53a3195e5e"
+        },
+        "@type": [
+            "gs1:ReferencedFileDetails",
+            "s:MediaObject"
+        ]
+    },
+    "s:color": [
+        {
+            "@value": "Blue",
+            "@language": "en"
+        }
+    ],
+    "functionalName": [
+        {
+            "@value": "Denim Jacket",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryDescription": [
+        {
+            "@value": "Jackets/Blazers/Cardigans/Waistcoats",
+            "@language": "en"
+        }
+    ],
+    "gpcCategoryCode": "10001350",
+    "manufacturersWarranty": {
+        "s:durationOfWarranty": {
+            "s:value": {
+                "@value": "10",
+                "@type": "xsd:float"
+            },
+            "s:unitCode": "ANN",
+            "@type": [
+                "gs1:QuantitativeValue",
+                "s:QuantitativeValue"
+            ]
+        },
+        "@type": [
+            "gs1:WarrantyPromise",
+            "s:WarrantyPromise"
+        ]
+    },
+    "descriptiveSize": [
+        {
+            "@value": "Large",
+            "@language": "en"
+        }
+    ],
+    "consumerUsageInstructions": [
+        {
+            "@value": "Turn inside out. Wash separately, on a gentle cycle, at no more than 30°C. Washing less frequently will help to extend the life of the denim jacket.",
+            "@language": "en"
+        }
+    ],
+    "textileMaterialContent": [
+        {
+            "@value": "Cotton & Metal",
+            "@language": "en"
+        }
+    ],
+    "isPatterned": {
+        "@id": "gs1:NonbinaryLogicCode-FALSE"
+    },
+    "isThermal": {
+        "@id": "gs1:NonbinaryLogicCode-FALSE"
+    },
+    "isWaterproof": {
+        "@id": "gs1:NonbinaryLogicCode-FALSE"
+    },
+    "seasonName": [
+        {
+            "@value": "Spring Summer",
+            "@language": "en"
+        }
+    ],
+    "seasonCalendarYear": {
+        "@value": "2024",
+        "@type": "xsd:gYear"
+    },
+    "countryOfOrigin": [
+        {
+            "@type": [
+                "gs1:Country",
+                "s:Country"
+            ],
+            "countryCode": "PT"
+        }
+    ],
+    "countryOfAssembly": [
+        {
+            "@type": [
+                "gs1:Country",
+                "s:Country"
+            ],
+            "countryCode": "PT"
+        }
+    ],
+    "countryOfLastProcessing": {
+        "countryCode": "PT",
+        "@type": [
+            "gs1:Country",
+            "s:Country"
+        ]
+    },
+    "growingMethod": [
+        {
+            "@id": "gs1:GrowingMethodCode-ORGANIC"
+        }
+    ],
+    "targetMarket": [
+        {
+            "targetMarketCountries": [
+                {
+                    "@type": [
+                        "gs1:Country",
+                        "s:Country"
+                    ],
+                    "countryCode": "GB"
+                }
+            ],
+            "@type": "gs1:TargetMarketDetails"
+        }
+    ],
+    "certification": [
+        {
+            "certificationStandard": [
+                {
+                    "@value": "OEKO-TEX - ORGANIC COTTON",
+                    "@language": "en"
+                }
+            ],
+            "@type": "gs1:CertificationDetails"
+        }
+    ]
+}
